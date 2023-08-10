@@ -13,7 +13,7 @@ server.use(middlewares);
 server.use(router);
 
 server.post("/",(req,res)=>{
-    console.log(res)
+    res.send("posted")
 })
 
 server.listen(port);
