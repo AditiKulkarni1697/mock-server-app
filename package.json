@@ -1,13 +1,13 @@
 {
   "name": "mock-server-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "mock server app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "aditi",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3"
