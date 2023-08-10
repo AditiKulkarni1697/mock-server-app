@@ -12,4 +12,8 @@ const port = process.env.PORT || 3000; // you can use any port number here; i ch
 server.use(middlewares);
 server.use(router);
 
+server.post("/",(req,res)=>{
+    console.log(res)
+})
+
 server.listen(port);
